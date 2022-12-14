@@ -20,16 +20,15 @@ let nomeAluno //Undefined > Não aponta pra local nenhuma  memória
 let sobrenonulo = null;  // nulo => não aponta pra local nenhum na memória
 const aprovado = false;  // bolean = true or false  (Lógico)
 
+
 // const a = [1, 2];
 // const b = a;
-
-// console.log (a ,b);
-
-// b.push(3)
+// console.log(a, b);
+// b.push(3);
 // console.log(a, b);
 
-let a = 2;
-const b = a;
+// let a = 2;
+// const b = a;
 
-a = 3; 
-console.log(a, b); //3, 2
+// a = 3; 
+// console.log(a, b); //3, 2

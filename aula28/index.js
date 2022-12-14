@@ -17,21 +17,20 @@
 
 //Função para formtar uma data
 
-function zeroEsquerda (num) {
-    return num >= 10 ? num : `0${num}`;
+function zeroEsquerda(num) {
+  return num >= 10 ? num : `0${num}`;
 }
 
 function formataData(data) {
-    const dia = zeroEsquerda(data.getDate());
-    const mes = zeroEsquerda(data.getMonth()) + 1;
-    const ano = zeroEsquerda(data.getFullYear());
-    const hora = zeroEsquerda(data.getHours());
-    const min = zeroEsquerda(data.getMinutes());
-    const seg = zeroEsquerda(data.getSeconds());
+  const dia = zeroEsquerda(data.getDate());
+  const mes = zeroEsquerda(data.getMonth()) + 1;
+  const ano = zeroEsquerda(data.getFullYear());
+  const hora = zeroEsquerda(data.getHours());
+  const min = zeroEsquerda(data.getMinutes());
+  const seg = zeroEsquerda(data.getSeconds());
 
-    return `A data de hoje é ${dia}/${mes}/${ano} e horario é ${hora}:${min}:${seg}`;
+  return `A data de hoje é ${dia}/${mes}/${ano} e horario é ${hora}:${min}:${seg}`;
 }
-
 
 const data = new Date();
 const dataBrasil = formataData(data);
