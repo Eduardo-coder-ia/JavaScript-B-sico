@@ -17,4 +17,4 @@ Operadores Lógicos
 // const vaiLogar = usuario === 'Luiz' && senha === '12345'; 
 // console.log(vaiLogar);
 
-console.log(!false); // ! usou para negar uma expressão !false vira True
+console.log(!false); // ! usou para negar uma expressão !false vira 

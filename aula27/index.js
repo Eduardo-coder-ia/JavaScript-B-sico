@@ -1,17 +1,16 @@
-// (condicao) ? 'valor para verdadeiro : 'valor para falso  Operador ternário  --> Pode substituir/encustar seu codigos em partes que usam if e else
+//OPERADORES TERNÁRIOS
+//  ?   e    :    Ambos podem me ajudar a encurtar if e else
+ // (condicao) ? 'Valor para verdadeiro'  : 'Valor para falso';
+// exemplo
+ // um site onde baseado na respostas dos usuários sejam atribuidos pontos a eles vip ou normal
 
-const pountuacaoUsuario = 9979;
-const nivelUsuario = pountuacaoUsuario >= 1000 ? 'Usario VIP' : 'Usuário normal';
-
-const corUsuario = null 
-const corPadrao = corUsuario || 'preta';
-
-
-console.log(nivelUsuario, corPadrao);
-
-// if (pountuacaoUsuario >= 1000) {
-//     console.log('Usuario Vip');
-                                          //Mesma coisa
-// } else {
-//     console.log('Usuário normal!');
-// }
+ const pontuacaoDeUsuarios = 999
+ const nivelDeUsuario = pontuacaoDeUsuarios >= 1000 ? 'Usuario VIP' : 'Usuário normal';
+console.log(nivelDeUsuario);
+//  if (pontuacaoDeUsuarios >= 1000) {
+//     console.log(`Usuário Vip`)
+//  } else {
+//     console.log(`Usuário Normal`);
+//  } 
+ 
+ // Usando a operação ternária pra encurtar o código acima

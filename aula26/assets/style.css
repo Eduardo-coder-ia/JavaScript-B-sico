@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color:rgba(255, 166, 0, 0.973);
+    --primary-color:rgba(0, 89, 255, 0.973);
     
 }
 
@@ -16,6 +16,7 @@ body {
     padding: 0;
     background: var(--primary-color);
     font-family: 'Open sans', sans-serif;
+    color: white;
 }
 
 .container {
@@ -68,10 +69,12 @@ form button:active {
 
 
 .paragrafo-resultado, .bad {
-    background: rgb(34, 87, 4);
-    padding: 10px;
+    background:rgb(15, 184, 15);
+    padding: 10px 20px;
 }
 
+
+
 .bad {
-    background: rgb(121, 11, 11);
+    background: rgb(202, 14, 14);
 }
